@@ -1,0 +1,78 @@
+body{
+    background-image: url(/images/pattern-bg.svg);
+}
+.row{
+    display: flex;
+    margin: 120px;
+    background-color: lightyellow;
+    box-shadow: 8px 8px 8px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+    height: 415px;
+}
+.col-6{
+    width: 50%;
+}
+.section1{
+    margin-top: 110px;
+    padding-left: 130px;
+  line-height: 32px;
+}
+.fade{
+    color: lightslategray;
+}
+h3{
+   line-height: 7px;
+}
+.section2  {
+   padding-right: 140px; 
+}
+.mock{
+    height: 350px;
+    padding-top: 28px;
+}
+button{
+    background-color: snow;
+    border-radius: 12px;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+}
+#arrows{
+    height: 12px;
+
+}
+
+@media(max-width:750px){
+body{
+    display: block;
+}
+
+    .container{
+       display: block;
+        flex-direction: column;
+        margin: auto;
+        
+    }
+.section1{
+   margin: auto; 
+   padding: 0;
+   display: block;
+}
+h3{
+    line-height: normal;
+}
+
+
+    .row{
+        display: flex;
+    }
+    img{
+        width: auto;
+        height: auto;
+        
+    }
+.img-section{
+flex-direction: column;
+}
+
+}
